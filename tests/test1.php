@@ -4,10 +4,10 @@
 
 require_once __DIR__ . '/../vendor/autoload.php';
 
-use jc21\CliTable;
-use jc21\CliTableManipulator;
+use SatHub\CliTable\CliTable;
+use SatHub\CliTable\CliTableManipulator;
 
-include('data.php');
+$data = include('data.php');
 
 $table = new CliTable;
 $table->setTableColor('blue');
@@ -21,4 +21,3 @@ $table->addField('Last Seen',  'lastSeenTime', new CliTableManipulator('nicetime
 $table->addField('Expires',    'expires',      new CliTableManipulator('duetime'),  'green');
 $table->injectData($data);
 $table->display();
-

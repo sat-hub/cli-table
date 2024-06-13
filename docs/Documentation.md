@@ -1,11 +1,11 @@
 # Table of contents
 
-- [\jc21\CliTable](#class-jc21clitable)
-- [\jc21\CliTableManipulator](#class-jc21clitablemanipulator)
+- [CliTable](#class-jc21clitable)
+- [CliTableManipulator](#class-jc21clitablemanipulator)
 
 <hr /> 
 
-## Class: \jc21\CliTable
+## Class: CliTable
 
 | Visibility | Function |
 |:-----------|:---------|
@@ -36,7 +36,7 @@
 
 <hr /> 
 
-## Class: \jc21\CliTableManipulator
+## Class: CliTableManipulator
 
 | Visibility | Function |
 |:-----------|:---------|

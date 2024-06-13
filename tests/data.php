@@ -1,7 +1,6 @@
 <?php
 
-// Some test data for display
-$data = array(
+return array(
     array(
         'firstName'    => 'Jamie',
         'lastName'     => 'Curnow',
@@ -48,4 +47,3 @@ $data = array(
         'expires'      => time() + rand(1500, 5000),
     ),
 );
-

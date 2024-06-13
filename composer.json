@@ -1,25 +1,33 @@
 {
-    "name": "jc21/clitable",
-    "description": "CLI Table output for PHP scripts",
-    "keywords": ["cli", "table", "command", "line"],
-    "homepage": "https://github.com/jc21/clitable",
-    "license": "BSD-1-Clause",
-    "authors": [
-        {
-            "name": "Jamie Curnow",
-            "email": "jc@jc21.com"
-        }
-    ],
-    "minimum-stability": "dev",
-    "require": {
-        "php": ">=5.3.0"
-    },
-    "require-dev": {
-        "victorjonsson/markdowndocs": "dev-master"
-    },
-    "autoload": {
-        "psr-0": {
-            "jc21": "src"
-        }
-    }
+	"name": "sat-hub/cli-table",
+	"description": "CLI Table output for PHP scripts, forked from jc21/clitable.",
+	"type": "library",
+	"keywords": ["cli", "command", "formatting", "line", "table"],
+	"license": "BSD-1-Clause",
+	"authors": [
+		{
+			"name": "Jamie Curnow",
+			"email": "jc@jc21.com"
+		},
+		{
+			"name": "Sascha Ternes",
+			"email": "sascha.ternes@gmx.de"
+		}
+	],
+	"version": "1.0.0",
+	"time": "2024-06-13",
+
+	"require": {
+		"php": "~7.4|~8.0",
+		"ext-mbstring": "*"
+	},
+	"require-dev": {
+		"victorjonsson/markdowndocs": "~1.3.8"
+	},
+
+	"autoload": {
+		"psr-4": {
+			"SatHub\\CliTable\\": "src/"
+		}
+	}
 }
